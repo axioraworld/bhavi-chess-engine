@@ -25,7 +25,7 @@
 
 static const char *START_FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
 #ifndef BHAVI_VERSION
-#define BHAVI_VERSION "5.3"
+#define BHAVI_VERSION "5.5"
 #endif
 static const char *ENGINE_NAME = "Bhavi " BHAVI_VERSION;
 

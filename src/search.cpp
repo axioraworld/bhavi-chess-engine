@@ -40,7 +40,7 @@ std::atomic<bool> stopFlag{false};
 std::mutex ioMutex;
 int moveOverhead = 30;
 // Search feature bitmask (hidden UCI option "SFeatures"); 0 = stage-6 search.
-int features = 131076;
+int features = 4;  // 5.4/5.5 tested search set (stage-8 extras available via SFeatures)
 enum {
   F_QTT = 1,       // transposition table in quiescence search
   F_TTEVAL = 2,    // static eval from TT + TT-score-corrected eval for pruning
