@@ -1,6 +1,10 @@
-# Bhavi Chess Engine 5.3
+# Bhavi Chess Engine
 
 Bhavi is a chess engine written by Vinod Naraniwal, Sonam Naraniwal (AXIORA GLOBAL SYSTEMS PVT LTD), India.
+
+## Latest release: 5.4
+
+[Bhavi 5.4](https://github.com/axioraworld/bhavi-chess-engine/releases/tag/v5.4) (2026-10-16) has a new v7-h768 NNUE network, about +39.6 Elo over 5.3 in a 1358-game SPRT at 10+0.1. Downloads: `bhavi-5.4-avx2.exe` (Windows, AVX2), `bhavi-5.4-portable.exe` (Windows, any 64-bit CPU), `bhavi-5.4-linux-avx2` (Linux). The sections below describe the 5.3 package.
 
 - Protocol: UCI
 - Evaluation: NNUE, with the network embedded in the executable (no extra files needed)
